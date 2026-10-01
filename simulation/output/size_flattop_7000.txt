@@ -1,0 +1,1 @@
+SIZE flattop n 7000 R 100 rej05 0.04 rej10 0.07 

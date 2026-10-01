@@ -1,0 +1,92 @@
+\section{Results}\label{sec:results}
+
+\subsection{Older Danes living alone}
+
+Table~\ref{tab:dkold} reports the test for Danes aged 65 and over who live alone. For the group as a whole the evidence against unimodality grows with the sample: the $p$-value is at or near one in 2004 and 2007, $0.105$ in 2010, and $0.035$, $0.015$ and $0.005$ in 2013, 2016 and 2019. In each of the three rejecting waves the valley is one or two cells wide and lies between 132{,}500 and 152{,}500 kroner, and the upper mode is 30{,}000 to 40{,}000 kroner above the lower one. The lower mode moves with the pension. Measured by the centre of its cell it is at 125{,}000, 135{,}000 and 140{,}000 kroner in the three rejecting waves, 0.88, 0.90 and 0.88 of the gross full pension of Table~\ref{tab:floors}. In 2010, where the test falls just short of rejecting ($p=0.105$), the maximising split puts the lower mode at 110{,}000 kroner, 0.83 of the pension.
+
+\begin{table}[t]
+\centering\small
+\caption{Tests of unimodality for the disposable income of Danes aged 65 and over living alone. Cells of 5{,}000 kroner between the 5th and 95th percentiles of the group; 199 bootstrap draws. $p$: bootstrap $p$-value; modes: centres of the cells containing the two modes, in thousands of kroner, reported when $p\le0.10$. Transfer-reliant: public pensions and benefits at least 90 per cent of income.}\label{tab:dkold}
+\begin{tabular}{lrrcrrcrrr}
+\toprule
+ & & \multicolumn{2}{c}{All 65+} & \multicolumn{3}{c}{Transfer-reliant} & Other & \multicolumn{2}{c}{By age: $p$}\\
+\cmidrule(lr){3-4}\cmidrule(lr){5-7}\cmidrule(lr){8-8}\cmidrule(lr){9-10}
+Year & $n$ & $p$ & modes & share & $p$ & modes & $p$ & 65--74 & 75+\\
+\midrule
+2004 & 11{,}855 & 1.000 & & 0.58 & 0.025 & 90, 120 & 1.000 & 1.000 & 0.005\\
+2007 & 11{,}865 & 1.000 & & 0.53 & 0.005 & 95, 130 & 0.995 & 1.000 & 0.225\\
+2010 & 12{,}682 & 0.105 & & 0.53 & 0.005 & 110, 150 & 1.000 & 1.000 & 0.005\\
+2013 & 13{,}272 & 0.035 & 125, 155 & 0.51 & 0.005 & 120, 160 & 0.650 & 1.000 & 0.005\\
+2016 & 42{,}971 & 0.015 & 135, 170 & 0.60 & 0.005 & 135, 170 & 1.000 & 0.955 & 0.005\\
+2019 & 45{,}496 & 0.005 & 140, 180 & 0.59 & 0.005 & 135, 180 & 0.180 & 1.000 & 0.005\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The source of the second mode becomes visible when the group is split by where its income comes from. Between 51 and 60 per cent of older Danes living alone receive at least nine tenths of their income from public pensions and benefits. Among them the test rejects in every wave, with $p$-values of $0.025$ in 2004 and $0.005$, the smallest attainable with 199 draws, in every later wave, although the transfer-reliant group numbers only 6{,}300 to 6{,}900 people in the four earlier waves. Among older people with substantial occupational or private pensions, earnings or capital income there is no evidence against unimodality in any wave. The same is true of people aged 65 to 74, while for those aged 75 and over, of whom 55 to 67 per cent are transfer-reliant against 46 to 54 per cent of the younger group, the test rejects in five of the six waves. The bimodality is thus a property of the transfer-reliant, and it shows in the whole group only to the extent that they dominate it.
+
+The result does not depend on the 90 per cent threshold. With a threshold of 95 per cent the test rejects at $p=0.005$ in every wave from 2007 and gives $p=0.13$ in 2004; with 80 per cent, which admits more people with small occupational pensions, it rejects at $p=0.005$ in every wave from 2010 but not in 2004 and 2007. A second refinement matters more for what follows. In Denmark the LIS item for public contributory pensions contains the statutory funded supplement ATP, which is usually small, and the pensions of former civil servants, which can be large: in 2016 and 2019 a tenth of the transfer-reliant group has public contributory pensions of more than 140{,}000 kroner. Excluding everyone whose public contributory pensions exceed a tenth of income removes the former civil servants together with those whose ATP pension is large. It leaves 43 to 54 per cent of the older population, among whom the test rejects at $p=0.005$ in every wave, with modes at 90 and 120 thousand kroner in 2004 rising to 135 and 180 thousand in 2019. At a cell width of 10{,}000 kroner the test rejects for this group in every wave ($p=0.03$ in 2004, $0.01$ in 2007 and $0.005$ thereafter), and for all people aged 65 and over in 2016 ($p=0.03$) and 2019 ($0.005$). Shifting the cell grid by half a cell, so that the cells are centred at odd multiples of 2{,}500 kroner, leaves these rejections at $p=0.005$ in 2016 and 2019 and moves the valley by at most 5{,}000 kroner. This refined group is the one on which the rest of the analysis rests, and its test is the paper's primary test. Many other tests are reported, but for the primary one a Holm correction across the six waves still gives adjusted $p$-values of at most $0.03$.
+
+\subsection{Two floors}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig/dk_stack.pdf}
+\caption{Disposable income of Danes aged 65 and over living alone, 2010 and 2019, in cells of 5{,}000 kroner, as a percentage of the group. The bars are stacked by source of income: transfer-reliant (public pensions and benefits at least 90 per cent of income, public contributory pensions at most 10 per cent) without and with the pensioners' housing benefit, and everyone else. Cells with fewer than 30 observations in a component are suppressed and shown as zero. Dotted line: gross annual folkepension for a single person at the full rate (Table~\ref{tab:floors}).}\label{fig:stack}
+\end{figure}
+
+Figure~\ref{fig:stack} shows the decomposition for 2010 and 2019. The transfer-reliant without the housing benefit form a narrow peak 15 to 20 per cent below the gross full pension, the transfer-reliant with the benefit a second peak 40{,}000 to 45{,}000 kroner higher, and everyone else a broad hump that extends far to the right. The dip between the two peaks is visible in the total for 2019; in 2010 it is filled in by the broad hump, which is why the whole group shows a second mode only in the later waves.
+
+Table~\ref{tab:hb} splits this refined transfer-reliant group by whether they receive the pensioners' housing benefit. Seventy-one to 76 per cent do. Among recipients the test does not reject in any wave, and among non-recipients it does not reject in any wave; in every case the $p$-value is one. Each group has a single mode, and the two modes are those of the pooled group. The lower one is the net pension. In the LIS data the most common folkepension payment among the transfer-reliant from 2010 onwards is the full pension plus the ældrecheck (143{,}972 kroner in 2010, 157{,}884 in 2013, 166{,}144 in 2016 and 176{,}600 in 2019), and the median disposable income of non-recipients is a stable 75 to 77 per cent of it: what remains of that sum after income tax, with little else added or taken away. The groups are also tight: the interquartile range of disposable income is 8{,}000 to 15{,}000 kroner among non-recipients and 15{,}000 to 21{,}000 kroner among recipients, less than the distance between their medians in every wave. The distance between the medians of the two groups is 26{,}000 kroner in 2004, rising to 42{,}000 in 2019, and it is close to the median benefit received, which rises from 28{,}000 to 40{,}000 kroner over the same period. The benefit in the data behaves as the statute says it should. Among recipients in the refined group, 15.7 per cent in 2016 and 14.3 per cent in 2019 receive exactly the statutory annual maximum of 45{,}480 and 48{,}540 kroner, and the 75th percentile of the benefit equals the maximum to the krone in both years. The LIS item exceeds the maximum for another 14 to 17 per cent of recipients, which suggests that it also contains some housing support other than the pensioners' benefit.
+
+\begin{table}[t]
+\centering\small
+\caption{Transfer-reliant Danes aged 65 and over living alone, excluding those whose public contributory pensions exceed a tenth of income, split by receipt of the pensioners' housing benefit. Share: of all people aged 65 and over living alone; HB: share receiving the housing benefit; medians in thousands of kroner; $p$: bootstrap $p$-values as in Table~\ref{tab:dkold}; owners: share of owner-occupiers among the non-recipients of the (unrefined) transfer-reliant group.}\label{tab:hb}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+ & & & \multicolumn{3}{c}{Median} & \multicolumn{3}{c}{$p$} & \\
+\cmidrule(lr){4-6}\cmidrule(lr){7-9}
+Year & Share & HB & benefit & dhi, HB & dhi, no HB & pooled & HB & no HB & owners\\
+\midrule
+2004 & 0.54 & 0.71 & 28.0 & 117.8 & 91.7 & 0.005 & 1.000 & 1.000 & 0.72\\
+2007 & 0.50 & 0.76 & 29.8 & 127.2 & 95.9 & 0.005 & 1.000 & 1.000 & \\
+2010 & 0.49 & 0.74 & 32.8 & 145.0 & 110.3 & 0.005 & 1.000 & 1.000 & 0.73\\
+2013 & 0.47 & 0.74 & 36.1 & 156.7 & 118.4 & 0.005 & 1.000 & 1.000 & \\
+2016 & 0.44 & 0.73 & 39.0 & 165.6 & 126.5 & 0.005 & 1.000 & 1.000 & 0.67\\
+2019 & 0.43 & 0.71 & 40.4 & 175.5 & 133.7 & 0.005 & 1.000 & 1.000 & 0.65\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Who are the two groups? In the transfer-reliant group before the refinement, 99.8 to 99.9 per cent of recipients of the housing benefit rent their home, and 65 to 73 per cent of non-recipients own it. The lower mode is therefore, for the most part, older owner-occupiers living on the folkepension, and the upper mode older renters living on the folkepension and the housing benefit. The difference between them is the benefit: the median transfer-reliant renter has a disposable income 22{,}000 to 34{,}000 kroner higher than the median transfer-reliant owner, and the difference is the housing benefit that pays part of her rent.
+
+\input{s4b_counterfactual}
+
+\subsection{Norway}
+
+Table~\ref{tab:no} reports the same analysis for Norwegians aged 67 and over living alone. There is no evidence against unimodality in any register wave, at either cell width. The minimum pension is visible in the data: the tenth percentile of the disposable income of transfer-reliant older Norwegians is within seven per cent of the minimum pension in every wave up to 2019 and coincides with it in 2016 (in 2022 it is 15 per cent below it), and gross and disposable income of this group are almost the same, as the tax rules imply. But the transfer-reliant are only four to seven per cent of the older population living alone, against half in Denmark, and their incomes form the lower shoulder of a single mode rather than a mode of their own. The Danish data show that this share is decisive. Keeping all older Danes who are not transfer-reliant and a random subsample of the transfer-reliant, so that they make up 6 or 30 per cent of the group rather than 59 or 60, the test did not reject in any of eight subsamples at either share in 2016 or 2019. Nor is the Norwegian housing allowance the difference: 54 and 68 per cent of transfer-reliant older Norwegians received it in 2016 and 2019, but the median amount, 17{,}500 and 18{,}500 kroner, is less than a tenth of their median disposable income, against almost a quarter of the median disposable income of Danish recipients, and tenure does not split them: the median disposable income of transfer-reliant owners is only 5{,}000 to 8{,}500 kroner above that of renters.
+
+\begin{table}[t]
+\centering\small
+\caption{Norwegians aged 67 and over living alone. Cells of 5{,}000 and 10{,}000 kroner between the 5th and 95th percentiles; 199 bootstrap draws. Floor: calendar-year average minimum pension for a single person (Table~\ref{tab:floors}; 2022 from \citealp{NOMeld2022}); reliant: transfer-reliant share; q10: tenth percentile of disposable income among the transfer-reliant, in thousands of kroner.}\label{tab:no}
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & & & & & \multicolumn{3}{c}{$p$}\\
+\cmidrule(lr){6-8}
+Year & $n$ & Floor & Reliant & q10 & all, $w=5$k & all, $w=10$k & other\\
+\midrule
+2007 & 23{,}505 & 117.5 & 0.065 & 125.7 & 1.000 & 1.000 & 1.000\\
+2010 & 23{,}920 & 148.7 & 0.067 & 157.9 & 1.000 & 1.000 & 1.000\\
+2013 & 24{,}957 & 166.2 & 0.053 & 173.0 & 1.000 & 0.435 & 1.000\\
+2016 & 26{,}504 & 179.7 & 0.062 & 179.7 & 0.750 & 0.130 & 0.990\\
+2019 & 28{,}314 & 198.6 & 0.041 & 192.5 & 0.870 & 0.675 & 1.000\\
+2022 & 30{,}782 & 230.2 & 0.056 & 194.7 & 0.970 & 1.000 & 0.610\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\input{s4c_countries}
+
+\subsection{Working-age people living alone}
+
+People aged 30 to 64 living alone are the natural comparison: few of them live on a flat-rate transfer. With the lowest five per cent trimmed, the $p$-values are between $0.06$ and one in every wave, and with the lowest ten per cent trimmed between $0.14$ and one. There is no evidence of a second mode among working-age singles. The same is true in Norway in every register wave but the last, 2022, where the test rejects with a shallow valley between 297{,}500 and 352{,}500 kroner, far above any statutory amount; I do not pursue it here.

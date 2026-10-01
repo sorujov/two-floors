@@ -1,0 +1,75 @@
+\section{Sweden and Finland}\label{app:sefi}
+
+The Swedish and Finnish LIS files are sample surveys. The Swedish files for 2007 and 2010 contain about 5{,}000 one-person households and those for 2013 to 2021 between 1{,}400 and 2{,}400, of whom 600 to 2{,}000 are aged 65 or over; the Finnish files for 2004 to 2016 contain about 2{,}400, of whom 610 to 820 are aged 65 or over. Table~\ref{tab:sefi} reports the test for the groups used in the main text. It rejects for no group of older people in either country. It rejects for Swedes aged 30 to 64 in 2010 and 2013 and for Finns of that age in 2004 and 2013, in each case with a valley well above any statutory amount; with samples of this size and without the decomposition that register data allow, I do not interpret these rejections.
+
+The absence of rejections among older people says little. In Sweden 23 to 37 per cent of people aged 65 and over living alone are transfer-reliant, and 61 to 69 per cent of these receive a housing supplement, a structure that looks like the Danish one; but the transfer-reliant number between 150 and 750 in each wave. To see what the test can detect at such sizes, \input{s6b_power} Pooling the Swedish waves from 2010 to 2021 (Section~\ref{sec:countries}) resolves the question: with 2{,}640 transfer-reliant people the test still does not reject, because Swedish recipients of the housing supplement are barely richer than non-recipients, whose incomes are themselves widely spread. In Finland only two to seven per cent of older people living alone are transfer-reliant, fewer than 50 people in each wave, and nothing can be said.
+
+\begin{table}[t]
+\centering\small
+\caption{Sweden (cells of 5{,}000 kronor) and Finland (cells of 500 euro): bootstrap $p$-values of the test for disposable income of people living alone, lowest 5 per cent trimmed; 199 draws. $n_{65}$: number aged 65 and over; reliant: transfer-reliant share of them.}\label{tab:sefi}
+\begin{tabular}{lrrrrrr}
+\toprule
+ & $n_{65}$ & reliant & 65+ & 65+, $2w$ & under 30 & 30--64\\
+\midrule
+Sweden 2007 & 2{,}016 & 0.37 & 1.000 & 1.000 & 1.000 & 0.055\\
+Sweden 2010 & 1{,}549 & 0.35 & 1.000 & 1.000 & 0.950 & 0.005\\
+Sweden 2013 & 618 & 0.27 & 1.000 & 1.000 & 0.685 & 0.030\\
+Sweden 2016 & 649 & 0.25 & 0.965 & 0.940 & 0.925 & 0.150\\
+Sweden 2019 & 662 & 0.23 & 1.000 & 0.995 & 0.960 & 0.675\\
+Sweden 2021 & 919 & 0.23 & 1.000 & 1.000 & 0.620 & 0.420\\
+Finland 2004 & 610 & 0.07 & 1.000 & 1.000 & 0.405 & 0.005\\
+Finland 2007 & 672 & 0.05 & 1.000 & 0.980 & 0.630 & 0.155\\
+Finland 2010 & 660 & 0.03 & 0.995 & 1.000 & 0.845 & 0.590\\
+Finland 2013 & 819 & 0.03 & 1.000 & 1.000 & 1.000 & 0.010\\
+Finland 2016 & 778 & 0.02 & 0.965 & 1.000 & 0.845 & 0.065\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Trimming}\label{app:trim}
+
+Table~\ref{tab:trim} compares the test at three lower trimming quantiles for the Danish groups for which the choice matters. At $\alpha=0.01$ the test rejects for people under 30 in every wave from 2010 and for people aged 30 to 64 in 2016 and 2019, and in each case the lower mode is the first cell, centred at zero. At $\alpha=0.05$ and $0.10$ these rejections disappear for the working-age group and, for people under 30, remain only in the two large waves, where the lower mode is at 65{,}000 kroner. For all people aged 65 and over the $p$-values at $\alpha=0.01$ are 1.000, 0.870, 0.090, 0.105, 0.010 and 0.010 for 2004 to 2019, against 1.000, 1.000, 0.105, 0.035, 0.015 and 0.005 at $\alpha=0.05$ (Table~\ref{tab:dkold}); the valleys are the same, and the only change is that the 2013 rejection disappears ($p=0.105$).
+
+\begin{table}[t]
+\centering\small
+\caption{Denmark: bootstrap $p$-values of the test for disposable income of people living alone at lower trimming quantiles $\alpha=0.01$, $0.05$, $0.10$; cells of 5{,}000 kroner; 199 draws. In parentheses: centre of the cell of the lower mode, thousands of kroner, when $p\le0.05$.}\label{tab:trim}
+\begin{tabular}{lccc@{\hspace{16pt}}ccc}
+\toprule
+ & \multicolumn{3}{c}{Under 30} & \multicolumn{3}{c}{30--64}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Year & 0.01 & 0.05 & 0.10 & 0.01 & 0.05 & 0.10\\
+\midrule
+2004 & 0.200 & 0.135 & 0.955 & 0.215 & 1.000 & 1.000\\
+2007 & 0.935 & 0.940 & 0.850 & 0.940 & 0.935 & 0.930\\
+2010 & 0.005 (0) & 0.940 & 0.870 & 0.965 & 0.975 & 0.950\\
+2013 & 0.005 (0) & 0.235 & 0.225 & 0.765 & 0.720 & 0.680\\
+2016 & 0.005 (0) & 0.005 (65) & 0.005 (65) & 0.005 (0) & 0.060 & 0.320\\
+2019 & 0.005 (0) & 0.025 (65) & 0.015 (65) & 0.005 (0) & 0.145 & 0.140\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Students and the grant}\label{app:su}
+
+The Danish student grant leaves a mark of a different kind. Table~\ref{tab:su} reports the excess mass of the gross income of Danes under 30 living alone within 2{,}500 kroner of twelve times the monthly grant for a student living away from home, together with the same quantity at four placebo amounts. At the grant the excess is between 0.40 and 0.75 in every wave; below the grant it is negative at both placebo amounts in every wave, and twenty per cent above it is between $-0.14$ and $0.08$. Ten per cent above the grant the excess is positive in five waves and as large as $0.34$ in 2010; since the window at $1.1F$ begins 3{,}000 to 5{,}000 kroner above the grant, this is consistent with students whose small earnings put them a little above it.
+
+\begin{table}[t]
+\centering\small
+\caption{Excess mass of the gross income of Danes under 30 living alone within 2{,}500 kroner of $F$, twelve times the monthly student grant for a student living away from home, and of placebo amounts; bins of 500 kroner, polynomial of degree five fitted on $|x-F|\in[2{,}500,40{,}000)$. The last three columns test unimodality of disposable income with the lower 5 per cent trimmed.}\label{tab:su}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+ & & \multicolumn{5}{c}{Excess mass at} & \multicolumn{3}{c}{Disposable income}\\
+\cmidrule(lr){3-7}\cmidrule(lr){8-10}
+Year & $F$ & $0.8F$ & $0.9F$ & $F$ & $1.1F$ & $1.2F$ & $p$ & \multicolumn{2}{c}{modes}\\
+\midrule
+2004 & 54{,}228 & $-0.22$ & $-0.39$ & 0.67 & $-0.11$ & 0.08 & 0.135 & & \\
+2007 & 58{,}224 & $-0.10$ & $-0.26$ & 0.40 & 0.24 & $-0.09$ & 0.940 & & \\
+2010 & 64{,}608 & $-0.14$ & $-0.44$ & 0.56 & 0.34 & 0.02 & 0.940 & & \\
+2013 & 69{,}036 & $-0.28$ & $-0.52$ & 0.53 & 0.16 & $-0.09$ & 0.235 & & \\
+2016 & 71{,}292 & $-0.25$ & $-0.35$ & 0.75 & 0.08 & $-0.07$ & 0.005 & 65 & 100\\
+2019 & 73{,}992 & $-0.18$ & $-0.35$ & 0.71 & 0.22 & $-0.14$ & 0.025 & 65 & 105\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In the two large waves the disposable income of this group is also bimodal, with a lower mode at 65{,}000 kroner, just below the grant, and an upper mode at 100{,}000 to 105{,}000 kroner. The grant is taxable, so a lower mode a little below it is what one expects from students who live on the grant after tax together with small earnings. In the four smaller waves the test does not reject, and the location of the lower mode cannot be compared.

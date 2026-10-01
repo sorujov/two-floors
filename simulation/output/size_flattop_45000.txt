@@ -1,0 +1,1 @@
+SIZE flattop n 45000 R 100 rej05 0.11 rej10 0.14 

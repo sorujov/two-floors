@@ -1,0 +1,1 @@
+n 2000 R 100 power05 0 power10 0 

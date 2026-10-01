@@ -1,0 +1,1 @@
+SIZE skewpeak n 45000 R 100 rej05 0 rej10 0 

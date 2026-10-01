@@ -1,0 +1,1 @@
+# job 1506318 gb_job21_dk_dilute: reliant share reduced by subsampling reliant (others all kept); 8 reps each: dk16 share .06 rej05 0 (median p 1), share .30 rej 0 (1); dk19 .06 rej 0 (.9475), .30 rej 0 (1)

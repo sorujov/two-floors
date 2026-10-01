@@ -1,0 +1,142 @@
+DS dk04 n 32339 old 11855 under30 5704 dep 3646 median 134014 medgross 176624
+BUNCH dk04 all FP 111924 gross_excess -0.357 gross_share 0.0351
+BUNCH dk04 all SU 54228 gross_excess 0.596 gross_share 0.1093
+BUNCH dk04 all KH 100908 gross_excess 0.222 gross_share 0.0437
+Q dk04 all n 32339 dhi_q05_25_50_75_95 67636/107899/134014/179567/259892 gross_q05_25_50_75_95 84437/141959/176624/262224/419674
+CELL dk04 all dhi w 5000 K=45 p=1 delta=0.00071217 lo=47500 hi=67500 pslo=0.016976 pshi=0.049785
+CELL dk04 all gross w 5000 K=77 p=0.995 delta=0.0014929 lo=102500 hi=112500 pslo=0.072915 pshi=0.093386
+BUNCH dk04 old FP 111924 gross_excess -0.565 gross_share 0.0215
+BUNCH dk04 old KH 100908 gross_excess -0.332 gross_share 0.0047
+Q dk04 old n 11855 dhi_q05_25_50_75_95 88407/104365/120097/140521/213113 gross_q05_25_50_75_95 118439/137394/153940/190850/315823
+CELL dk04 old dhi w 5000 K=28 p=1 delta=0.00080714 lo=152500 hi=162500 pslo=0.81577 pshi=0.85652
+CELL dk04 old gross w 5000 K=44 p=0.865 delta=0.0027724 lo=122500 hi=137500 pslo=0.090679 pshi=0.25129
+BUNCH dk04 young FP 111924 gross_excess -0.135 gross_share 0.0532
+BUNCH dk04 young SU 54228 gross_excess 0.599 gross_share 0.1127
+BUNCH dk04 young KH 100908 gross_excess 0.281 gross_share 0.0811
+Q dk04 young n 20484 dhi_q05_25_50_75_95 56844/113999/151858/198280/274450 gross_q05_25_50_75_95 67315/150683/211338/295098/449961
+CELL dk04 young dhi w 5000 K=50 p=0.205 delta=0.0045705 lo=77500 hi=97500 pslo=0.10555 pshi=0.17819
+CELL dk04 young gross w 5000 K=85 p=0.05 delta=0.0072756 lo=102500 hi=127500 pslo=0.10862 pshi=0.16886
+BUNCH dk04 under30 FP 111924 gross_excess 0.012 gross_share 0.0695
+BUNCH dk04 under30 SU 54228 gross_excess 0.666 gross_share 0.1222
+BUNCH dk04 under30 KH 100908 gross_excess 0.022 gross_share 0.0623
+Q dk04 under30 n 5704 dhi_q05_25_50_75_95 43696/72853/106709/159021/222719 gross_q05_25_50_75_95 48267/94689/149938/235613/347384
+CELL dk04 under30 dhi w 5000 K=42 p=0.2 delta=0.0095149 lo=52500 hi=77500 pslo=0.10607 pshi=0.28471
+CELL dk04 under30 gross w 5000 K=66 p=0.205 delta=0.012969 lo=62500 hi=97500 pslo=0.11431 pshi=0.26104
+DS dk07 n 33004 old 11865 under30 5733 dep 2800 median 149384 medgross 202378
+BUNCH dk07 all FP 119244 gross_excess -0.218 gross_share 0.0429
+BUNCH dk07 all SU 58224 gross_excess 0.381 gross_share 0.0895
+Q dk07 all n 33004 dhi_q05_25_50_75_95 74797/119627/149384/201326/290133 gross_q05_25_50_75_95 95039/157790/202378/298674/474682
+CELL dk07 all dhi w 5000 K=52 p=1 delta=0.00081424 lo=152500 hi=162500 pslo=0.52154 pshi=0.57629
+CELL dk07 all gross w 5000 K=89 p=1 delta=0.0010774 lo=192500 hi=207500 pslo=0.46819 pshi=0.51566
+BUNCH dk07 old FP 119244 gross_excess -0.393 gross_share 0.0307
+Q dk07 old n 11865 dhi_q05_25_50_75_95 93491/114676/131076/155781/233440 gross_q05_25_50_75_95 126892/151098/169162/214567/353178
+CELL dk07 old dhi w 5000 K=31 p=0.87 delta=0.002077 lo=92500 hi=102500 pslo=0.040539 pshi=0.13047
+CELL dk07 old gross w 5000 K=50 p=1 delta=0.0014432 lo=222500 hi=237500 pslo=0.77193 pshi=0.81037
+BUNCH dk07 young FP 119244 gross_excess -0.032 gross_share 0.0583
+BUNCH dk07 young SU 58224 gross_excess 0.383 gross_share 0.0915
+Q dk07 young n 21139 dhi_q05_25_50_75_95 62004/127254/170329/220679/308569 gross_q05_25_50_75_95 75002/170947/241114/334072/509952
+CELL dk07 young dhi w 5000 K=59 p=0.99 delta=0.0022274 lo=152500 hi=162500 pslo=0.40423 pshi=0.45901
+CELL dk07 young gross w 5000 K=98 p=0.775 delta=0.0036972 lo=192500 hi=207500 pslo=0.35385 pshi=0.39737
+BUNCH dk07 under30 FP 119244 gross_excess -0.219 gross_share 0.0519
+BUNCH dk07 under30 SU 58224 gross_excess 0.399 gross_share 0.0961
+Q dk07 under30 n 5733 dhi_q05_25_50_75_95 45311/80501/117363/175049/241314 gross_q05_25_50_75_95 49140/106536/167456/259229/384274
+CELL dk07 under30 dhi w 5000 K=48 p=0.935 delta=0.0050847 lo=112500 hi=137500 pslo=0.47235 pshi=0.59271
+CELL dk07 under30 gross w 5000 K=76 p=0.905 delta=0.0057524 lo=107500 hi=127500 pslo=0.25536 pshi=0.33281
+DS dk10 n 33903 old 12682 under30 5949 dep 4248 median 161147 medgross 212448
+BUNCH dk10 all FP 133272 gross_excess -0.178 gross_share 0.0454
+BUNCH dk10 all SU 64608 gross_excess 0.491 gross_share 0.1099
+BUNCH dk10 all KH 118284 gross_excess 0.558 gross_share 0.0531
+Q dk10 all n 33903 dhi_q05_25_50_75_95 67772/130778/161147/215200/324005 gross_q05_25_50_75_95 79467/171562/212448/309185/497777
+CELL dk10 all dhi w 5000 K=64 p=0.245 delta=0.0035428 lo=62500 hi=87500 pslo=0.041265 pshi=0.077574
+CELL dk10 all gross w 5000 K=99 p=0.33 delta=0.0034205 lo=72500 hi=117500 pslo=0.042592 pshi=0.084152
+BUNCH dk10 old FP 133272 gross_excess -0.452 gross_share 0.0265
+BUNCH dk10 old KH 118284 gross_excess -1.774 gross_share 0.007
+Q dk10 old n 12682 dhi_q05_25_50_75_95 106771/130281/149157/177046/265470 gross_q05_25_50_75_95 143805/170453/191801/241837/389842
+CELL dk10 old dhi w 5000 K=35 p=0.09 delta=0.0044267 lo=112500 hi=132500 pslo=0.10117 pshi=0.27149
+CELL dk10 old gross w 5000 K=56 p=0.965 delta=0.0020789 lo=147500 hi=167500 pslo=0.081612 pshi=0.22694
+BUNCH dk10 young FP 133272 gross_excess 0.047 gross_share 0.0655
+BUNCH dk10 young SU 64608 gross_excess 0.48 gross_share 0.1114
+BUNCH dk10 young KH 118284 gross_excess 0.329 gross_share 0.0856
+Q dk10 young n 21221 dhi_q05_25_50_75_95 58080/131673/178159/238124/344094 gross_q05_25_50_75_95 65908/174234/243889/347296/537220
+CELL dk10 young dhi w 5000 K=70 p=0.005 delta=0.010742 lo=-2500 hi=42500 pslo=0.00014137 pshi=0.030677
+CELL dk10 young gross w 5000 K=108 p=0.005 delta=0.01064 lo=-2500 hi=42500 pslo=0 pshi=0.029782
+BUNCH dk10 under30 FP 133272 gross_excess 0.001 gross_share 0.0621
+BUNCH dk10 under30 SU 64608 gross_excess 0.558 gross_share 0.1217
+BUNCH dk10 under30 KH 118284 gross_excess 0.122 gross_share 0.073
+Q dk10 under30 n 5949 dhi_q05_25_50_75_95 31046/73853/115637/173046/258174 gross_q05_25_50_75_95 32677/90489/157696/246642/384148
+CELL dk10 under30 dhi w 5000 K=53 p=0.005 delta=0.022003 lo=-2500 hi=32500 pslo=0 pshi=0.051269
+CELL dk10 under30 gross w 5000 K=78 p=0.005 delta=0.022042 lo=-2500 hi=32500 pslo=0 pshi=0.049924
+DS dk13 n 34479 old 13272 under30 5891 dep 4688 median 170425 medgross 227060
+BUNCH dk13 all FP 141984 gross_excess -0.096 gross_share 0.0499
+BUNCH dk13 all SU 69036 gross_excess 0.475 gross_share 0.1138
+BUNCH dk13 all KH 126000 gross_excess 0.405 gross_share 0.0651
+Q dk13 all n 34479 dhi_q05_25_50_75_95 68366/136688/170425/223984/340044 gross_q05_25_50_75_95 81039/182672/227060/323470/527371
+CELL dk13 all dhi w 5000 K=69 p=0.255 delta=0.0034257 lo=67500 hi=92500 pslo=0.048058 pshi=0.082572
+CELL dk13 all gross w 5000 K=106 p=0.055 delta=0.0047947 lo=87500 hi=117500 pslo=0.056643 pshi=0.081006
+BUNCH dk13 old FP 141984 gross_excess -0.044 gross_share 0.0353
+BUNCH dk13 old KH 126000 gross_excess 1.729 gross_share 0.0188
+Q dk13 old n 13272 dhi_q05_25_50_75_95 113198/139760/160848/189075/282295 gross_q05_25_50_75_95 153627/186119/210061/260505/423286
+CELL dk13 old dhi w 5000 K=38 p=0.105 delta=0.0041416 lo=127500 hi=137500 pslo=0.15476 pshi=0.23033
+CELL dk13 old gross w 5000 K=61 p=1 delta=0.0016032 lo=247500 hi=257500 pslo=0.71135 pshi=0.73983
+BUNCH dk13 young FP 141984 gross_excess -0.119 gross_share 0.0623
+BUNCH dk13 young SU 69036 gross_excess 0.492 gross_share 0.1165
+BUNCH dk13 young KH 126000 gross_excess 0.335 gross_share 0.0887
+Q dk13 young n 21207 dhi_q05_25_50_75_95 57969/132390/185007/246829/364073 gross_q05_25_50_75_95 65434/176056/255861/362900/574553
+CELL dk13 young dhi w 5000 K=74 p=0.005 delta=0.013295 lo=-2500 hi=47500 pslo=0.00018862 pshi=0.038761
+CELL dk13 young gross w 5000 K=116 p=0.005 delta=0.013574 lo=-2500 hi=62500 pslo=0 pshi=0.046824
+BUNCH dk13 under30 FP 141984 gross_excess -0.117 gross_share 0.0625
+BUNCH dk13 under30 SU 69036 gross_excess 0.533 gross_share 0.1223
+BUNCH dk13 under30 KH 126000 gross_excess 0.065 gross_share 0.0725
+Q dk13 under30 n 5891 dhi_q05_25_50_75_95 24200/72694/114416/172062/259978 gross_q05_25_50_75_95 24596/87779/153447/243050/394059
+CELL dk13 under30 dhi w 5000 K=53 p=0.005 delta=0.026956 lo=-2500 hi=32500 pslo=0 pshi=0.060771
+CELL dk13 under30 gross w 5000 K=80 p=0.01 delta=0.027054 lo=-2500 hi=42500 pslo=0 pshi=0.077236
+DS dk16 n 126995 old 42971 under30 30820 dep 20456 median 171776 medgross 236066
+BUNCH dk16 all FP 149544 gross_excess -0.142 gross_share 0.0508
+BUNCH dk16 all SU 71292 gross_excess 0.643 gross_share 0.1232
+BUNCH dk16 all KH 131616 gross_excess -0.088 gross_share 0.0562
+Q dk16 all n 126995 dhi_q05_25_50_75_95 54297/129185/171776/225420/351895 gross_q05_25_50_75_95 61632/177948/236066/355746/607923
+CELL dk16 all dhi w 5000 K=71 p=0.005 delta=0.012997 lo=-2500 hi=47500 pslo=0.0019371 pshi=0.043647
+CELL dk16 all gross w 5000 K=123 p=0.005 delta=0.013375 lo=-2500 hi=57500 pslo=0.0017717 pshi=0.046844
+BUNCH dk16 old FP 149544 gross_excess -0.092 gross_share 0.0292
+BUNCH dk16 old SU 71292 gross_excess -0.17 gross_share 0.044
+BUNCH dk16 old KH 131616 gross_excess 0.299 gross_share 0.0202
+Q dk16 old n 42971 dhi_q05_25_50_75_95 120622/147654/170222/201585/309474 gross_q05_25_50_75_95 162536/197950/223868/281217/474169
+CELL dk16 old dhi w 5000 K=44 p=0.01 delta=0.0033153 lo=132500 hi=147500 pslo=0.13395 pshi=0.24875
+CELL dk16 old gross w 5000 K=72 p=1 delta=0.00043114 lo=172500 hi=182500 pslo=0.091178 pshi=0.14794
+BUNCH dk16 young FP 149544 gross_excess -0.153 gross_share 0.0626
+BUNCH dk16 young SU 71292 gross_excess 0.656 gross_share 0.1251
+BUNCH dk16 young KH 131616 gross_excess -0.109 gross_share 0.0653
+Q dk16 young n 84024 dhi_q05_25_50_75_95 32857/108232/174024/238933/365895 gross_q05_25_50_75_95 35929/147123/251529/399314/649153
+CELL dk16 young dhi w 5000 K=74 p=0.005 delta=0.01907 lo=-2500 hi=47500 pslo=0.0029039 pshi=0.064482
+CELL dk16 young gross w 5000 K=131 p=0.005 delta=0.019665 lo=-2500 hi=57500 pslo=0.002654 pshi=0.069218
+BUNCH dk16 under30 FP 149544 gross_excess -0.084 gross_share 0.062
+BUNCH dk16 under30 SU 71292 gross_excess 0.747 gross_share 0.1341
+BUNCH dk16 under30 KH 131616 gross_excess -0.048 gross_share 0.0675
+Q dk16 under30 n 30820 dhi_q05_25_50_75_95 6284/68837/106326/160807/256383 gross_q05_25_50_75_95 6737/81906/144964/243628/433457
+CELL dk16 under30 dhi w 5000 K=52 p=0.005 delta=0.028775 lo=-2500 hi=42500 pslo=0.0066515 pshi=0.11006
+CELL dk16 under30 gross w 5000 K=88 p=0.005 delta=0.029811 lo=-2500 hi=57500 pslo=0.0063595 pshi=0.13345
+DS dk19 n 131774 old 45496 under30 31540 dep 19722 median 182411 medgross 251890
+BUNCH dk19 all FP 159000 gross_excess -0.068 gross_share 0.0542
+BUNCH dk19 all SU 73992 gross_excess 0.645 gross_share 0.1188
+BUNCH dk19 all KH 137076 gross_excess -0.081 gross_share 0.0578
+Q dk19 all n 131774 dhi_q05_25_50_75_95 59322/137478/182411/239672/373772 gross_q05_25_50_75_95 68578/190952/251890/378431/646035
+CELL dk19 all dhi w 5000 K=76 p=0.005 delta=0.013178 lo=-2500 hi=52500 pslo=0.0011231 pshi=0.043969
+CELL dk19 all gross w 5000 K=130 p=0.005 delta=0.013556 lo=-2500 hi=67500 pslo=0.00097136 pshi=0.049289
+BUNCH dk19 old FP 159000 gross_excess 0.071 gross_share 0.0356
+BUNCH dk19 old SU 73992 gross_excess 0.398 gross_share 0.0818
+BUNCH dk19 old KH 137076 gross_excess 0.692 gross_share 0.0318
+Q dk19 old n 45496 dhi_q05_25_50_75_95 125910/155530/180089/213252/320354 gross_q05_25_50_75_95 171245/210403/238884/299366/491622
+CELL dk19 old dhi w 5000 K=46 p=0.01 delta=0.0035772 lo=137500 hi=152500 pslo=0.12126 pshi=0.22813
+CELL dk19 old gross w 5000 K=74 p=1 delta=0.0003368 lo=197500 hi=207500 pslo=0.17096 pshi=0.23081
+BUNCH dk19 young FP 159000 gross_excess -0.103 gross_share 0.0644
+BUNCH dk19 young SU 73992 gross_excess 0.649 gross_share 0.1196
+BUNCH dk19 young KH 137076 gross_excess -0.123 gross_share 0.0631
+Q dk19 young n 86278 dhi_q05_25_50_75_95 36116/117138/185656/256266/393384 gross_q05_25_50_75_95 39777/160006/271291/425679/695815
+CELL dk19 young dhi w 5000 K=80 p=0.005 delta=0.019431 lo=-2500 hi=52500 pslo=0.0017154 pshi=0.065173
+CELL dk19 young gross w 5000 K=140 p=0.005 delta=0.019994 lo=-2500 hi=67500 pslo=0.0014836 pshi=0.073333
+BUNCH dk19 under30 FP 159000 gross_excess -0.033 gross_share 0.064
+BUNCH dk19 under30 SU 73992 gross_excess 0.712 gross_share 0.1263
+BUNCH dk19 under30 KH 137076 gross_excess -0.037 gross_share 0.0651
+Q dk19 under30 n 31540 dhi_q05_25_50_75_95 15657/76035/118229/178082/277002 gross_q05_25_50_75_95 16753/92903/163744/269501/466458
+CELL dk19 under30 dhi w 5000 K=56 p=0.005 delta=0.024087 lo=-2500 hi=47500 pslo=0.0034559 pshi=0.10178
+CELL dk19 under30 gross w 5000 K=94 p=0.005 delta=0.024918 lo=-2500 hi=57500 pslo=0.0031706 pshi=0.11322
